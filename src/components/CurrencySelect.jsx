@@ -19,8 +19,10 @@ const currencyCodes = [
     "ZWL"
 ];
 
+// eslint-disable-next-line react/prop-types
 const CurrencySelect = ({ selectedCurrency, handleCurrency }) => {
     // Extract the country code from the selected currency code
+    // eslint-disable-next-line react/prop-types
     const countryCode = selectedCurrency.substring(0, 2);
 
     return (

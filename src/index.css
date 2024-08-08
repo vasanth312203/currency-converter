@@ -27,12 +27,12 @@ body {
   border-radius: 8px;
   backdrop-filter: blur(30px);
   background: rgba(2, 7, 40, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 174, 238, 0.3);
+  box-shadow: 0 8px 32px rgba(41, 0, 163, 0.5);
 }
 
 .currency-converter .converter-title {
-  color: #fff;
+  color: #ff00b3b5;
   font-size: 1.65rem;
   font-weight: 600;
   text-align: center;
@@ -49,7 +49,7 @@ body {
 }
 
 .converter-form .form-group .form-label {
-  color: #fff;
+  color: #0051ff;
   font-weight: 500;
   display: block;
   margin-bottom: 9px;
@@ -124,6 +124,7 @@ body {
 .converter-form .submit-button {
   width: 100%;
   min-height: 52px;
+  color: #000000;
   border-radius: 6px;
   border: none;
   outline: none;
@@ -140,11 +141,11 @@ body {
 }
 
 .converter-form .submit-button:hover {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 18, 117, 0.7);
 }
 
 .converter-form .exchange-rate-result {
-  color: #fff;
+  color: #ff0ca2;
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
